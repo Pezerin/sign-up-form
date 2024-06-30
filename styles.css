@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./Norse-Bold.otf) format("opentype");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,4 +22,33 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 5px blueviolet;
     display: flex;
+    align-items: center;
+}
+
+.background {
+    width: 300px;
+    margin: 50px;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px blueviolet;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 310px;
+    position: absolute;
+    left: 515px;
+    top: 275px;
+}
+
+.title img {
+    width: 50px;
+}
+
+.title h1 {
+    color: white;
+    font-family: "Norse Bold", Arial, Helvetica, sans-serif;
+    font-size: 35px;
 }
